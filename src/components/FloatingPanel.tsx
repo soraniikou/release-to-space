@@ -85,16 +85,16 @@ const FloatingPanel = ({ onRelease, isVisible, onClose }: FloatingPanelProps) =>
             />
             
             <div className="relative">
-              <p className="text-muted-foreground text-sm mb-4 text-center">
-                想いを宇宙へ放つ
-              </p>
+            <p className="text-muted-foreground text-sm mb-4 text-center">
+              Release your thoughts into the cosmos
+            </p>
               
               <textarea
                 ref={inputRef}
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="手放したい言葉を入力..."
+                placeholder="Enter words to let go..."
                 className="w-full bg-transparent border border-border/50 rounded-xl px-4 py-3 
                          text-foreground placeholder:text-muted-foreground/50
                          focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/30
@@ -116,11 +116,11 @@ const FloatingPanel = ({ onRelease, isVisible, onClose }: FloatingPanelProps) =>
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span className="glow-text">放つ</span>
+                <span className="glow-text">Release</span>
               </motion.button>
               
               <p className="text-muted-foreground/50 text-xs mt-3 text-center">
-                Enter で送信 · Esc で閉じる
+                Enter to send · Esc to close
               </p>
             </div>
           </motion.div>
