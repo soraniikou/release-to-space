@@ -63,7 +63,7 @@ const TapPrompt = ({ isVisible }: TapPromptProps) => {
             textShadow: '0 0 20px hsl(var(--glow-primary) / 0.3)',
           }}
         >
-          タップして始める
+          Tap to begin
         </p>
       </motion.div>
     </motion.div>

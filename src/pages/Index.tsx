@@ -102,7 +102,7 @@ const Index = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            画面をタップして、もう一度
+            Tap anywhere to continue
           </motion.p>
         )}
       </AnimatePresence>
