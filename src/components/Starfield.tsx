@@ -18,8 +18,8 @@ const Starfield = () => {
       x: Math.random() * 100,
       y: Math.random() * 100,
       size: Math.random() * 2 + 0.5,
-      duration: Math.random() * 3 + 2,
-      delay: Math.random() * 5,
+      duration: Math.random() * 5 + 6,
+      delay: Math.random() * 8,
       brightness: Math.random() * 0.5 + 0.5,
     }));
   }, []);
