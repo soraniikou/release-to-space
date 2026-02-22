@@ -40,7 +40,7 @@ const FlyingText = ({ id, text, onComplete }: FlyingTextProps) => {
           filter: 'blur(4px)',
         }}
         transition={{
-          duration: 2.5,
+          duration: 8.0,
           ease: [0.4, 0, 0.2, 1],
         }}
         onAnimationComplete={() => onComplete(id)}
@@ -57,7 +57,7 @@ const FlyingText = ({ id, text, onComplete }: FlyingTextProps) => {
             opacity: [0.5, 0.8, 0],
           }}
           transition={{
-            duration: 2.5,
+            duration: 8.0,
             ease: 'easeOut',
           }}
         />
