@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+🌠 Release into Space
 
-## Project info
+ 自由に言葉を書いて、宇宙に放つ
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+言えない言葉や想いを書いて、リリースしてください。  
+誰にも見られません。言葉は保存されません。  
+安心して正直な想いを書いて、放ってください。  
+**書いてクリックするだけ。**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ 体験する
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**👉 [30秒体験はこちら](https://release-into-space.vercel.app)**
 
-Changes made via Lovable will be committed automatically to this repo.
+![release into space](./release.png)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+このアプリについて
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 入力した言葉は**どこにも保存されません**
+- **誰にも見られません**
+- 文字が宇宙の奥へ消えていく、ただそれだけ
+- 言えなかった言葉、抱えていた想い、そっと手放してください
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+ 技術スタック
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/) — 文字が宇宙へ飛ぶアニメーション
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- Deploy: [Vercel](https://vercel.com/)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📄 License
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT © soraniikou
