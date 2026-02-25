@@ -23,9 +23,11 @@ const Index = () => {
   }, [isPanelVisible]);
 
   const handleRelease = useCallback((text: string) => {
-    const id = `${Date.now()}-${Math.random()}`;
-    setReleasedTexts((prev) => [...prev, { id, text }]);
-  }, []);
+  const audio = new Audio('/wasurete.m4a');
+  audio.play();
+  const id = `${Date.now()}-${Math.random()}`;
+  setReleasedTexts((prev) => [...prev, { id, text }]);
+}, []);
 
   const handleTextComplete = useCallback((id: string) => {
     setReleasedTexts((prev) => prev.filter((t) => t.id !== id));
