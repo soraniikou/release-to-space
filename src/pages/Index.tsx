@@ -24,6 +24,7 @@ const Index = () => {
 
   const handleRelease = useCallback((text: string) => {
   const audio = new Audio('/wasurete.m4a');
+  audio.playbackRate = 0.667;
   audio.play();
   const id = `${Date.now()}-${Math.random()}`;
   setReleasedTexts((prev) => [...prev, { id, text }]);
