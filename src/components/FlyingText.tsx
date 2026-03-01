@@ -18,12 +18,12 @@ const FlyingText = ({ id, text, onComplete }: FlyingTextProps) => {
       <motion.div
         className="text-2xl md:text-4xl font-light text-center px-4"
         style={{
-          color: 'hsl(var(--glow-primary))',
+          color: 'hsl(var(--glow-primary) / 0.45)',
           textShadow: `
-            0 0 20px hsl(var(--glow-primary) / 0.9),
-            0 0 40px hsl(var(--glow-primary) / 0.6),
-            0 0 80px hsl(var(--glow-primary) / 0.4),
-            0 0 120px hsl(var(--glow-secondary) / 0.3)
+            0 0 20px hsl(var(--glow-primary) / 0.4),
+            0 0 40px hsl(var(--glow-primary) / 0.25),
+            0 0 80px hsl(var(--glow-primary) / 0.15),
+            0 0 120px hsl(var(--glow-secondary) / 0.1)
           `,
           transformStyle: 'preserve-3d',
         }}
@@ -40,7 +40,7 @@ const FlyingText = ({ id, text, onComplete }: FlyingTextProps) => {
           filter: 'blur(4px)',
         }}
         transition={{
-          duration: 8.0,
+          duration: 16.0,
           ease: [0.4, 0, 0.2, 1],
         }}
         onAnimationComplete={() => onComplete(id)}
@@ -57,7 +57,7 @@ const FlyingText = ({ id, text, onComplete }: FlyingTextProps) => {
             opacity: [0.5, 0.8, 0],
           }}
           transition={{
-            duration: 8.0,
+            duration: 16.0,
             ease: 'easeOut',
           }}
         />
